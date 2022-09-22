@@ -1,0 +1,121 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+@media only screen and (max-width: 600px) {
+    .outside-border {
+        width: 400px;
+        height: 1000px;
+        background-color: blue;
+        margin: auto;
+        border-radius: 10px;
+        object-position: center;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+       
+
+
+}
+
+.outside-border {
+    width: 570px;
+    height: 420px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+    object-position: center;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.outside-border img{
+    width: 260px;
+    height: 420px;
+    border-radius: 10px 0 0 10px;
+    margin-right: 30px;
+
+}
+
+.floral {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    margin-bottom: 15px;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.perf {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.perf-nam {
+    font-family: 'Fraunces', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin: 0;
+    margin-bottom: 15px;
+    color: hsl(212, 21%, 14%);
+    font-weight: bolder;
+}
+
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.price2 {
+    margin: 0;
+    margin-right: 20px;
+    font-size: 30px;
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.price3 {
+    color: hsl(228, 12%, 48%);
+    font-family: 'Fraunces', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;;
+}
+
+.add-to-cart-button { 
+    padding: 15px 60px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.add-to-cart-button img {
+    height: 20px;
+    width: 18px;
+    margin: 0;
+    margin-right: 11px;
+}
